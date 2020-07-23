@@ -1,0 +1,5 @@
+{% if data.person._job %}
+  <h4>
+    Position: <a href="{{ data.person._job._url }}">{{ data.person._job.title }}</a>
+  </h4>
+{% endif %}

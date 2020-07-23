@@ -23,7 +23,14 @@ var apos = require('apostrophe')({
     'products': {},
     'products-pages': {},
     'companys':{},
-    'company-pages':{}
+    'company-pages':{},
+    'jobs': {
+      extend: 'apostrophe-pieces'
+    },
+    'jobs-pages': {
+      extend: 'apostrophe-pieces-pages'
+    },
+       
   },
   path: {
     alias: "PATH",
